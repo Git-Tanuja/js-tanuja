@@ -1,0 +1,30 @@
+// ***************** Comparisons **************
+console.log(2>3)    //false
+console.log(2>=6)   //false
+console.log(2<6)    //true
+console.log(2<=6)   //true
+console.log(2==2)   //true
+console.log(2!=9)   //true
+
+
+console.log("Comparing different data types")
+console.log("2"==2)  //true string = int
+console.log(4>="3") //true  int >= string
+
+// It automatically converts the data type according to situaton
+
+// avoid null and undefined comparisons
+console.log("Null Data Type Comparison")
+console.log(null > 0)   //false
+console.log(null == 0)  //false
+console.log(null >= 0)  //true null is converted to 0
+
+console.log("Undefined Data Type Comparison")
+console.log(undefined > 0)   //false
+console.log(undefined == 0)  //false
+console.log(undefined >= 0)  //false
+
+
+// Strict check === it comapares number as well as data type
+console.log("=== check")
+console.log("2" === 2)  //false

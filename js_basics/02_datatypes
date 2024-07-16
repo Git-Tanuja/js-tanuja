@@ -1,0 +1,41 @@
+//Primitive Data Type
+
+const score = 100
+let loggedIn = true
+const outsideTemp = null
+let email;
+//console.log([score,loggedIn,outsideTemp,email])  //[ 100, true, null, undefined ]
+
+//symbol
+const id = Symbol('1234')
+const anotherId = Symbol('1234')
+//console.log(id===anotherId)           //false
+
+
+//Reference or Non-Primitive Data Type
+//Array
+const array = ["Sai","Salomi","Samruddhi"]
+//console.log(array)
+
+//object
+let myObj = {
+              name : "Tanuja",
+              age : 21
+}
+//console.log(myObj)
+
+//console.log("function")
+const myFunction = function(){
+    //console.log("Heyy How are you ?");
+}
+
+
+console.log("Data Type by using typeof");
+console.log(typeof score);         //number
+console.log(typeof loggedIn);       //boolean
+console.log(typeof outsideTemp);    //object
+console.log(typeof email);          //undefined
+console.log(typeof id);             //symbol
+console.log(typeof array);          //object
+console.log(typeof myObj);          //object
+console.log(typeof myFunction);     //function

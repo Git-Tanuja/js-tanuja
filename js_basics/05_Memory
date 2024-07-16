@@ -1,0 +1,17 @@
+//Memory :- Stack(Primitve) and Heap(Non-Primitive)
+
+let youtubeName = "welcometotanujachannel";
+let anotherName = youtubeName;
+anotherName = "chaiuaurcode";
+console.log(youtubeName);
+console.log(anotherName);
+
+let userOne ={
+        name : "Tanuja",
+        email : "tanu@gmail.com"
+}
+let userTwo = userOne;
+userTwo.email = "welcometotanujachannel"
+
+console.log(userOne.email);
+console.log(userTwo.email);
