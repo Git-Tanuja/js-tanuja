@@ -81,10 +81,34 @@ const obj4  = {...obj3,...obj2}
 //console.log(obj4)
 
 // When values come from database
- console.log(tinderUser)
- console.log(Object.keys(tinderUser))
- console.log(Object.values(tinderUser))
- console.log(Object.entries(tinderUser))
+//  console.log(tinderUser)
+//  console.log(Object.keys(tinderUser))
+//  console.log(Object.values(tinderUser))
+//  console.log(Object.entries(tinderUser))
 
- console.log(tinderUser.hasOwnProperty('email'))
- console.log(tinderUser.hasOwnProperty('location'))
+//  console.log(tinderUser.hasOwnProperty('email'))
+//  console.log(tinderUser.hasOwnProperty('location'))
+
+
+
+/************* Object De-structure***************/
+const course = {
+    name : "Javascript",
+    price : "399",
+    courseInstructor : "Hitesh"
+}
+console.log(course)
+
+const {courseInstructor : instructor} = course;
+console.log(instructor);
+// Destructure is used so that we don't need to type everthing multiiple time to access. course.courseInstructor is not required to type multiple times
+
+
+/*************JSON API ******************/
+//Json is Javascript object notation
+
+{
+    "name" : "Javascript",
+    "price" : "399",
+    "courseInstructor" : "Hitesh"
+}
